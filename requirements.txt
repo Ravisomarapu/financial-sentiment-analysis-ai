@@ -1,0 +1,24 @@
+# Requirements for Financial Sentiment Analysis – Reference Implementation
+# ---------------------------------------------------------------
+# This file lists Python dependencies required to run the reference
+# implementation accompanying the MSc thesis:
+# "Fortified Financial Sentiment Analysis Using AI for APT Decisioning"
+
+# Core scientific stack
+numpy>=1.21
+pandas>=1.3
+
+# Classical ML
+scikit-learn>=1.0
+
+# Deep learning / Transformers
+torch>=1.10
+transformers>=4.30
+
+# Utilities
+regex>=2022.1.18
+
+# NOTE:
+# - Exact versions are not strictly required for reproducibility
+# - GPU support is optional; CPU execution is sufficient
+# - No proprietary or paid libraries are required
